@@ -1,0 +1,181 @@
+body {
+    background-image: linear-gradient(to bottom, black, rgb(20, 20, 20), rgb(34, 34, 34), black);
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+ 
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+
+h2 { 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: linear-gradient(to bottom, rgb(90, 0, 0),rgb(141, 0, 0), rgb(184, 0, 0), rgb(90, 0, 0));
+    color: rgb(255, 75, 75);
+    text-align: center;
+    padding: 30px;
+
+    border: 10px groove rgb(66, 0, 0);
+
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+#charon {
+    background-color: rgb(54, 0, 54);
+}
+#artemis {
+    background-color: rgb(0, 44, 0);
+}
+#cerber {
+    background-color: rgb(59, 0, 12);
+}
+
+.col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.col-lg-4 h1 {
+    width: 400px;
+}
+
+#ch_btn, #art_btn, #cer_btn{
+    height: 600px;
+    width: 400px;
+    padding-left: 4px;
+}
+
+#ch_btn {
+    background: linear-gradient(180deg, rgb(50, 0, 70), rgb(128, 0, 128), rgb(143, 31, 248), rgb(119, 101, 0));
+    border: 2px solid rgb(65, 0, 65);
+}
+#art_btn {
+    background: linear-gradient(180deg, rgb(0, 39, 0),rgb(124, 106, 0), rgb(65, 163, 65));
+    border: 2px solid rgb(0, 65, 0);
+}
+#cer_btn {
+    background: linear-gradient(180deg, rgb(163, 0, 0), rgb(112, 13, 13), rgb(65, 37, 171));
+    border: 2px solid rgb(77, 20, 20);
+}
+
+
+.row {
+    height: fit-content;
+    margin: 50px;
+}
+        
+#ch-portrait, #art-portrait, #cer-portrait {
+    margin: 8px;
+    width: 450px;
+}
+
+#info-ch, #info-art, #info-cer {
+    margin: 100px;
+    display: none;
+    height: 900px;
+}
+
+#ch-portrait {
+    border: 4px solid #aa8846;
+    background-image: linear-gradient(black,#8216f3, #5a4c2c ,black);
+}
+#art-portrait {
+    height: 450px;
+    border: 4px solid rgb(17, 231, 64); ;
+    background-image: linear-gradient(black, #6a855b, #4e9d63, black);
+}
+#cer-portrait {
+    border: 4px solid rgb(231, 17, 17);;
+    background-image: linear-gradient(black, #e01308, #4125ab, black);
+}
+
+#ch-name {
+    background-image: linear-gradient(rgb(50, 10, 95), rgb(100, 88, 18));
+    color: rgb(233, 218, 81);
+    border: 4px solid rgb(245, 214, 42);    
+}
+#art-name {
+    background-image: linear-gradient(rgb(0, 51, 0), rgb(34, 99, 34));
+    color: rgb(17, 231, 64);
+    border: 4px solid rgb(17, 231, 64);  
+}
+#cer-name {
+    background-image: linear-gradient(rgb(78, 1, 1), rgb(119, 53, 53));
+    color: rgb(231, 17, 17);
+    border: 4px solid rgb(231, 17, 17);
+}
+
+
+#ch-opis, #art-opis, #cer-opis {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px;
+
+    text-align: justify;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+}
+        
+#ch-opis {
+    color: rgb(219, 101, 255);
+    border: 4px solid rgb(245, 214, 42);  
+}
+#art-opis {
+    color: rgb(109, 247, 97);
+    border: 4px solid rgb(17, 231, 64); 
+}
+#cer-opis {
+    color: rgb(253, 70, 94);
+    border: 4px solid rgb(231, 17, 17);
+}
+
+.chibi {
+    margin: auto;
+    width: 150px;
+}
+
+
+#close-ch, #close-art, #close-cer {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+    background-color: red;
+    color: rgb(94, 0, 0);
+    border: 2px solid rgb(94, 0, 0);
+}
+        
+.profil {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    
+    border: 8px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0, 0, 50px, rgba(0,0,0,0.3);
+}
+
